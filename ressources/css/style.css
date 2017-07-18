@@ -1,4 +1,6 @@
 
+
+
 /* GENERAL STYLING */
 
 html {
@@ -218,3 +220,48 @@ footer li {
 }
 
 /* RESPONSIVE DESIGN */
+
+@media only screen and (min-width: 601px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  nav {
+    margin: 0 auto;
+  }
+
+  #logo {
+    display: none;
+  }
+
+  #banner {
+    display: none;
+  }
+
+  .learn {
+    width: 60%;
+    text-align: center;
+  }
+
+  .information {
+    display: none;
+  }
+
+  .course {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+  }
+}

@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./ressources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./ressources/css/style.css">
@@ -18,11 +19,18 @@
       </div>
 
       <nav>
-        <ul>
+        <ul class="desktop">
           <li><a href="#">On campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">For companies</a></li>
           <li><a href="#">Sign in</a></li>
+        </ul>
+
+        <ul class="mobile">
+          <li><a href="#"><img src="./ressources/images/ic-logo.svg" alt="home"></a></li>
+          <li><a href="#"><img src="./ressources/images/ic-on-campus.svg" alt="On campus"></a></li>
+          <li><a href="#"><img src="./ressources/images/ic-online.svg" alt="Online"></a></li>
+          <li><a href="#"><img src="./ressources/images/ic-login.svg" alt="Sign in"></a></li>
         </ul>
       </nav>
 
@@ -98,7 +106,7 @@
 
         <h2>Start learning</h2>
 
-        <div class="courses">
+        <div class="courses desktop">
           <div class="course">
             <img src="./ressources/images/course-software.jpg" alt="software">
             <div class="description">
@@ -157,7 +165,30 @@
           </div>
         </div>
 
+        <div class="courses mobile">
+          <div class="course">
+            <h4>Software engineering</h4>
+          </div>
+          <div class="course">
+            <h4>Computer art</h4>
+          </div>
+          <div class="course">
+            <h4>Design</h4>
+          </div>
+          <div class="course">
+            <h4>Data</h4>
+          </div>
+          <div class="course">
+            <h4>Business</h4>
+          </div>
+          <div class="course">
+            <h4>Marketing</h4>
+          </div>
+        </div>
+
       </div>
+
+
 
       <!-- -->
 
